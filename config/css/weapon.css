@@ -13,14 +13,14 @@ nav {
     background-color: aliceblue;
     color: rgb(255, 193, 106);
 }
-#btn-generate:active,#btn-generate:hover,#btn-copy:active,#btn-copy:hover{
-    background-color: rgb(133, 210, 66);
+#btn-generate:active,#btn-copy:active{
+    background-color:  rgb(105, 196, 226);
     color:aliceblue;
 }
 #btn-generate svg{
     fill: rgb(255, 193, 106);
 }
-#btn-generate:active svg,#btn-generate:focus svg,#btn-generate:hover svg{
+#btn-generate:active svg,#btn-generate:focus svg{
     fill:aliceblue;
 }
 #items{
@@ -88,4 +88,17 @@ html{
 #btn-agree:active, #btn-agree:hover{
     background-color: rgb(133, 210, 66);
     color: white;
+}
+#btn-test{
+    background-color: rgb(105, 196, 226);
+    border:rgb(255, 255, 255) solid 2px;
+    color: white;
+}
+#btn-test:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 205, 105);
+    border:rgb(255, 205, 105) solid 2px;
+}
+#Revernry:hover, #Revernry:active{
+    color: rgb(255, 205, 105);
 }
