@@ -360,7 +360,7 @@ yt-live-chat-text-message-renderer #message {
   font-size: var(--message-font-size) !important;
   display: block !important;
   width: auto !important;
-  max-width: 150px !important;
+  max-width: 60% !important;
   height: auto !important;
   padding: 13px 12px !important;
   position: relative !important;
