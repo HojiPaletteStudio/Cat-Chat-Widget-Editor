@@ -200,10 +200,12 @@ yt-live-chat-text-message-renderer #content {
   /* align-items: end !important; */
   /* border: 1px solid green; */
   position: relative !important;
-  background-color: transparent !important;
   width: auto !important;
   min-height: 40px !important;
   order: 0 !important;
+
+
+ 
 }
 
 /* Channel names. */
@@ -217,7 +219,9 @@ yt-live-chat-text-message-renderer yt-live-chat-author-chip {
   /*z-index: 3 !important;*/
   width: 70px !important;
   margin-right: 10px !important;
-  background-color: transparent !important;
+
+
+  
 }
 
 
@@ -244,6 +248,8 @@ yt-live-chat-text-message-renderer {
   padding: 0 !important;
   contain: none !important;
   animation: slide-in-bottom 0.5s ease both !important;
+
+
   background-color: transparent !important;
 }
 
@@ -406,7 +412,7 @@ yt-live-chat-text-message-renderer[author-type=""] #message * {
   color: var(--message-color) !important;
 }
 
-yt-live-chat-text-message-renderer 
+
 
 yt-live-chat-text-message-renderer[author-type="owner"] #message {
   background: rgb(255, 192, 199) !important;
